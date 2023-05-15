@@ -12,4 +12,13 @@ def main(a):
     Returns:
         string: the message to print
     """
-    return
+    if a>0 and a%2==0:
+        return 'musbat juft'
+    if a>0 and a%2==1:
+        return 'musbat toq'
+    if a<0 and a%2==0:
+        return 'manfiy juft'
+    if a<0 and a%2==1:
+        return 'manfiy toq'
+    
+print(main(-10))
